@@ -5,8 +5,14 @@
 int main(void)
 {
 char s[100];
+scanf("%s", s);
 
-    scanf("%s", s);
-    for (int i = 0; i < strlen(s); i++)
-    printf("%c\n", s[i]);
+    if(s != NULL)
+    {
+        for (int i = 0; i < strlen(s); i++)
+        {
+        printf("%c\n", s[i]);
+        }
+    }
+    
 }
