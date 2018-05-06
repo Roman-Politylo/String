@@ -9,7 +9,7 @@ scanf("%s", s);
 
     if(s != NULL)
     {
-        for (int i = 0; i < strlen(s); i++)
+        for (int i = 0, n = strlen(s); i < n; i++)
         {
         printf("%c\n", s[i]);
         }
